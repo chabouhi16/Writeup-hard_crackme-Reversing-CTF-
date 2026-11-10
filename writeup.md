@@ -80,9 +80,12 @@ encrypted_bytes = [
 ]
 
 key = 0x55
-flag = "".join([chr(b ^ key) for b in encrypted_bytes])
+flag = ""
+for b in encrypted_bytes:
+    decrypted_char = chr(b ^ key) 
+    flag += decrypted_char      
 
-print(f"Decrypted Flag: {flag}")
+print("Decrypted Flag:",flag)
 
 ```
 
