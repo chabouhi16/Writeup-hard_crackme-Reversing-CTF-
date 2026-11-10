@@ -99,6 +99,4 @@ python3 solve.py
 
 * Takeaway: Even if an ELF binary is stripped, identifying static data structures and simple XOR operations in Ghidra enables efficient static analysis.
 
-```
 
-```
