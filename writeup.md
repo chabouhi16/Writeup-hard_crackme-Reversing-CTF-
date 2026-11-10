@@ -1,4 +1,4 @@
-```markdown
+markdown
 # Writeup: hard_crackme (Reverse Engineering)
 
 ## 1. Challenge Overview
